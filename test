@@ -1,3 +1,5 @@
+- Scan ALL passages and combine every matching item into one complete list.
+
 1. According to the solution specification, what are the main cloud-hosted management components involved in HPE Private Cloud AI?
 → The cloud management plane includes GreenLake Cloud Platform (GLCP), Distributed Services Common Cloud (DSCC), Data Ops Manager, GreenLake File services, OpsRamp, and Private Cloud AI services in DSCC.
 
