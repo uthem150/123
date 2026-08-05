@@ -1,14 +1,32 @@
-Task: decide if the CONTEXT is relevant to the QUESTION.
-Output exactly one word: YES or NO. Nothing else.
+1. According to the solution specification, what are the main cloud-hosted management components involved in HPE Private Cloud AI?
+→ The cloud management plane includes GreenLake Cloud Platform (GLCP), Distributed Services Common Cloud (DSCC), Data Ops Manager, GreenLake File services, OpsRamp, and Private Cloud AI services in DSCC.
 
-CONTEXT:
-{context}
+2. What GPU and storage are listed for the Developer System in the QuickSpecs family table?
+→ 2x RTX Pro 6000 GPUs and 22 TB internal file/object storage.
 
-QUESTION:
-{question}
+3. Which HPE Private Cloud AI configurations support an air-gapped deployment option in the QuickSpecs family table?
+→ Medium and Large support air-gapped deployment; Developer System and Small do not.
 
-Output YES if the CONTEXT states the answer, OR mentions the topic of the
-QUESTION in any way, even if it only points to another document.
-Output NO only if the CONTEXT contains nothing related to the QUESTION.
+4. What are the main on-prem control plane VMs listed in the solution specification?
+→ Distributed Services Connector, Morpheus Appliance, OpsRamp Gateway Appliance, EzFab K8s, EzControl Control Plane VM, and Data Lakehouse Gateway VM.
 
-One word (YES or NO):
+5. Which network is the only one that spans both the OOBM and high-speed fabrics?
+→ The Management Network.
+
+6. Which components are updated through the software-catalog workflow described in the Cloud Administrator guide?
+→ Data Services Connectors, VM Essentials, Server firmware (SPP), HPE GreenLake for File Storage array OS, and HPE AI Essentials.
+
+7. What is the purpose of Precheck in the software update workflow?
+→ Precheck verifies connectivity and identifies problems that could prevent a successful software update; it is a prerequisite for updating system software.
+
+8. Which tools are grouped under the Data Engineer persona in HPE AI Essentials Software?
+→ Airflow, EzPresto, and Superset.
+
+9. Which tools are grouped under the Data Scientist persona in HPE AI Essentials Software?
+→ Kubeflow, Ray, MLflow, and MLIS.
+
+10. What is the maximum number of concurrent users supported by HPE AI Essentials Software?
+→ Not specified in the provided documents.
+
+11. What are all of the known issues in HPE Private Cloud AI 1.6.x?
+→ Not specified in the provided documents. The solution specification says to see the HPE Private Cloud AI Release Notes for known issues, but the issues themselves are not listed in the ... content provided.
